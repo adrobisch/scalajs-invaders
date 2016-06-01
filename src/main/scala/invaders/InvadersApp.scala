@@ -302,7 +302,7 @@ class InvadersGame(val game: Phaser.Game) extends GameState {
 
 object InvadersApp extends JSApp {
   def main(): Unit = {
-    val game = new Phaser.Game()
+    val game = new Phaser.Game(800, 600, Phaser.AUTO, "invaders-game")
     game.state.add("initial", new InvadersGame(game))
     game.state.start("initial")
   }
