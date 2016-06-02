@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/github-dark.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/main.js"></script>
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -40,19 +39,18 @@
       </nav>
       <section>
         <h1>
-<a id="scalajs-invaders" class="anchor" href="#scalajs-invaders" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Scala.js Invaders</h1>
+          <a id="scalajs-invaders" class="anchor" href="#scalajs-invaders" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Scala.js Invaders
+        </h1>
 
-<p>A <a href="http://scala-js.org">Scala.js</a> port of the <a href="http://phaser.io/examples/v2/games/invaders">invaders example</a>
-from the Phaser.js documentation.</p>
-          <div id="phaser-example">
-              <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/phaser/2.4.8/phaser.min.js"></script>
-              <script type="text/javascript" src="javascripts/invaders-opt.js"></script>
-
-              <script type="text/javascript">
-                  invaders.InvadersApp().main();
-              </script>
-          </div>
+        <p>A <a href="http://scala-js.org">Scala.js</a> port of the <a href="http://phaser.io/examples/v2/games/invaders">invaders example</a>
+          from the Phaser.js documentation.</p>
         <p>Used as example on how to create a Scala.js binding for a <code>JavaScript</code>-library</p>
+
+        <h1>Demo</h1>
+        
+        <div id="invaders-game">
+        </div>
+
       </section>
       <footer>
         <p>Project maintained by <a href="https://github.com/adrobisch">adrobisch</a></p>
@@ -60,5 +58,11 @@ from the Phaser.js documentation.</p>
       </footer>
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/phaser/2.4.8/phaser.min.js"></script>
+    <script type="text/javascript" src="javascripts/invaders-opt.js"></script>
+
+    <script type="text/javascript">
+        invaders.InvadersApp().main();
+    </script>
   </body>
 </html>

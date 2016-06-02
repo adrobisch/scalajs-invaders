@@ -364,7 +364,7 @@ fieldset {
 
 /*
  * 1. Corrects color not being inherited in IE6/7/8/9
- * 2. Corrects text not wrapping in FF3 
+ * 2. Corrects text not wrapping in FF3
  * 3. Corrects alignment displayed oddly in IE6/7
  */
 legend {
@@ -792,7 +792,7 @@ header p {
 }
 
 section {
-  width: 590px;
+  width: 800px;
   padding: 30px 30px 50px 30px;
   margin: 20px 0;
   margin-top: 190px;
